@@ -462,6 +462,12 @@ footer{
         height: 300px;
     }
 
+    .content_6{
+        flex-direction: column
+    }
+
+
+
     footer{
         flex-direction: column
     }
@@ -496,6 +502,17 @@ footer{
     .content_1__right{
         width: 100%;
     }
+    .content_6__right__svg_down{
+        display: none;
+    }
+
+    .content_6__right{
+        width: 100%;
+    }
+    .content_6__right__svg_top{
+        flex-direction: column;
+        row-gap: 20px;
+    }
 
 }
 
@@ -504,6 +521,18 @@ footer{
         margin: 0;
         padding: 0;
         width: 100%;
+    }
+
+    .content_6__right__svg_down{
+        display: none;
+    }
+
+    .content_6__right{
+        width: 100%;
+    }
+    .content_6__right__svg_top{
+        flex-direction: column;
+        row-gap: 20px;
     }
 }
 
